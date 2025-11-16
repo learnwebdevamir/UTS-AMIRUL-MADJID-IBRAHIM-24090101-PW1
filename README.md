@@ -6,7 +6,7 @@ Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web 
 | :--- | :--- |
 | **Nama** | [AMIRUL MADJID IBRAHIM] |
 | **NIM** | [24090101] |
-| **Nama Repository** | `UTS-AMIRUL MADJID IBRAHIM-24090101-PW1` (Harap ganti sesuai NIM) |
+| **Nama Repository** | `UTS-AMIRUL MADJID IBRAHIM-24090101-PW1` |
 
 ***
 
@@ -15,7 +15,7 @@ Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web 
 | Deskripsi | Tautan |
 | :--- | :--- |
 | **GitHub Repository** | [https://github.com/learnwebdevamir/UTS-AMIRUL-MADJID-IBRAHIM-24090101-PW1.git] |
-| **GitHub Pages (Live Demo)** | `https://username.github.io/uts-nama-nim/` (Ganti dengan link Anda yang berhasil di-deploy) |
+| **https://learnwebdevamir.github.io/UTS-AMIRUL-MADJID-IBRAHIM-24090101-PW1/** | `https://username.github.io/uts-nama-nim/` (Ganti dengan link Anda yang berhasil di-deploy) |
 
 ***
 
