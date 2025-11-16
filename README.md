@@ -15,7 +15,7 @@ Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web 
 | Deskripsi | Tautan |
 | :--- | :--- |
 | **GitHub Repository** | [https://github.com/learnwebdevamir/UTS-AMIRUL-MADJID-IBRAHIM-24090101-PW1.git] |
-| **GitHub Pages (Live Demo)** | `(https://learnwebdevamir.github.io/UTS-AMIRUL-MADJID-IBRAHIM-24090101-PW1/)` |
+| **GitHub Pages (Live Demo)** | https://learnwebdevamir.github.io/UTS-AMIRUL-MADJID-IBRAHIM-24090101-PW1/ |
 
 ***
 
