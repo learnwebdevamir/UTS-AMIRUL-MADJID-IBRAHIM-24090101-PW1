@@ -39,7 +39,7 @@ function setupLoginPage() {
             return;
         }
 
-        l
+        
         errorMessage.textContent = ''; 
         alert('Login berhasil'); 
         window.location.href = 'dashboard.html'; 
