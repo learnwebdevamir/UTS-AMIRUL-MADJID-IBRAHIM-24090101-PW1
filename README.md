@@ -17,6 +17,13 @@ Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web 
 | **GitHub Repository** | [https://github.com/learnwebdevamir/UTS-AMIRUL-MADJID-IBRAHIM-24090101-PW1.git] |
 | **GitHub Pages (Live Demo)** | https://learnwebdevamir.github.io/UTS-AMIRUL-MADJID-IBRAHIM-24090101-PW1/ |
 
+
+***
+
+UNTUK VALIDASI LOGIN MENGGUNAKAN 
+EMAIL ADDRES : gmail@gmail.com
+PASSWORLD : pasword
+
 ***
 
 ## 📝 Deskripsi Proyek dan Fungsionalitas
