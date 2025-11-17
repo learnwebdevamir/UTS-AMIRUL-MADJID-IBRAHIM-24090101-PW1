@@ -21,8 +21,11 @@ Proyek ini adalah hasil Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web 
 ***
 
 UNTUK VALIDASI LOGIN MENGGUNAKAN 
+
 EMAIL ADDRES : madjidamirul@gmail.com
-USERNAME : madjidamirul
+
+USERNAME : learnwebdevamir
+
 PASSWORLD : 24090101
 
 ***
