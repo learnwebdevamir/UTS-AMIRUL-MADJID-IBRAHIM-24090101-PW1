@@ -20,32 +20,47 @@ function formatRupiah(number) {
 }
 
 
-function setupLoginPage() {
-    const loginForm = document.getElementById('login-form');
-    if (!loginForm) return;
+const CORRECT_EMAIL = "madjidamirul@gmail.com"; 
+const CORRECT_USERNAME_ALTERNATIVE = "learnwebdevamir"; 
+const CORRECT_PASSWORD = "24090101";
 
-    const emailInput = document.getElementById('email');
+function setupLoginPage() {
+    const usernameInput = document.getElementById('username'); 
     const passwordInput = document.getElementById('password'); 
+    const loginForm = document.getElementById('login-form');
     const errorMessage = document.getElementById('error-message');
+
+    if (!loginForm || !usernameInput || !passwordInput || !errorMessage) return;
 
     loginForm.addEventListener('submit', function(e) {
         e.preventDefault();
 
-        const email = emailInput.value.trim();
-        const password = passwordInput.value.trim(); 
+        const inputIdentifier = usernameInput.value.trim();
+        const password = passwordInput.value.trim();
 
-        if (email === '' || password === '') {
-            errorMessage.textContent = 'Email dan Password (NIM) tidak boleh kosong!'; 
+        if (inputIdentifier === '' || password === '') {
+            errorMessage.textContent = 'Username/Email dan Password (NIM) tidak boleh kosong!';
             return;
         }
 
-        
-        errorMessage.textContent = ''; 
-        alert('Login berhasil'); 
-        window.location.href = 'dashboard.html'; 
+        const isIdentifierCorrect = (
+            inputIdentifier === CORRECT_EMAIL || 
+            inputIdentifier === CORRECT_USERNAME_ALTERNATIVE
+        );
+
+        const isPasswordCorrect = (password === CORRECT_PASSWORD);
+
+        if (isIdentifierCorrect && isPasswordCorrect) {
+            errorMessage.textContent = ''; 
+            alert('Login berhasil'); 
+            window.location.href = 'dashboard.html';
+        } else {
+            errorMessage.textContent = 'Username/Email atau Password (NIM) salah!';
+            usernameInput.value = '';
+            passwordInput.value = '';
+        }
     });
 }
-
 
 function updateDashboardSummary() {
     
